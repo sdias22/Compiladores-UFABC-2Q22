@@ -1,12 +1,12 @@
 # Compiladores-UFABC-2Q22
 
-Nome: Gabriel de Sousa Dias
+**Nome:** Gabriel de Sousa Dias
 
-RA: 11201720272
+**RA:** 11201720272
 
 # Checklist:
 
-Itens Obrigatórios contidos no projeto:
+**Itens Obrigatórios contidos no projeto:**
 
 - Possuí 2 tipos de dados. (Número Decimal e String);
 - Possuí a instrução de decisão (if/else);
@@ -18,9 +18,7 @@ Itens Obrigatórios contidos no projeto:
 - Verifica se há variáveis declaradas e não-utilizadas (warning);	e
 - Geração de código na linguagem Java.
 
-Itens adicionais:
-
-Elementos adicionais:
+**Elementos adicionais:**
 
 - Possuí a instrução Switch/Case (escolha/caso);
 - Possuí o tipo de dado Número Inteiro; e
