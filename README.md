@@ -8,7 +8,7 @@ RA: 11201720272
 
 Itens Obrigatórios contidos no projeto:
 
-Possuí 2 tipos de dados. (Número Decimal e String);
+Possuí 2 tipos de dados. (Número Decimal e String);\n
 Possuí a instrução de decisão (if/else);
 Possuí a estrutura de repetição (while);	
 Verifica Atribuições com compatibilidade de tipos (semântica); 	
