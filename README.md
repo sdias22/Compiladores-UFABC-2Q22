@@ -67,3 +67,7 @@ Variavel	->	(a..z | A..Z) (a..z | A..Z | 0..9)*
 AParenteses	->	(
 
 Fparenteses	->	)
+
+## Analisador Léxico
+
+<img src = "https://github.com/sdias22/Compiladores-UFABC-2Q22/blob/main/Analisador%20L%C3%A9xico.png">
