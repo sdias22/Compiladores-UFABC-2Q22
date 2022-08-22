@@ -28,4 +28,4 @@
 
 ## Gramática
 
-![Gramática]("https://github.com/sdias22/Compiladores-UFABC-2Q22/blob/main/Gramática.jpg")
+<img src="https://github.com/sdias22/Compiladores-UFABC-2Q22/blob/main/Gramática.jpg">
