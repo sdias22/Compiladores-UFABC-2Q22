@@ -4,7 +4,7 @@
 
 **RA:** 11201720272
 
-# Checklist:
+## Checklist:
 
 **Itens Obrigatórios contidos no projeto:**
 
@@ -24,5 +24,5 @@
 - Possuí o tipo de dado Número Inteiro; e
 - Geração de código na linguagem C.
 
-# Link Vídeo Youtube:
+## Link Vídeo Youtube:
 
