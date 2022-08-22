@@ -20,7 +20,7 @@ Itens Obrigatórios contidos no projeto:
 
 Itens adicionais:
 
-*Elementos adicionais:
+Elementos adicionais:
 
 - Possuí a instrução Switch/Case (escolha/caso);
 - Possuí o tipo de dado Número Inteiro; e
