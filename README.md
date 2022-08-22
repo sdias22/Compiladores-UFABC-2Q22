@@ -26,3 +26,6 @@
 
 ## Link Vídeo Youtube:
 
+## Gramática
+
+![img]("C:\Users\gabri\OneDrive\Documentos\UFABC\Gramática.jpg")
