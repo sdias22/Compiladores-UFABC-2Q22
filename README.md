@@ -28,4 +28,42 @@
 
 ## Gramática
 
-<img src="https://github.com/sdias22/Compiladores-UFABC-2Q22/blob/main/Gramática.jpg">
+Prog	->	**programa** Declara Bloco **fimprog** .
+
+Declara	->	**declare** Variavel (, Variavel)*.
+
+Bloco	->	(Cmd)+
+
+Cmd	->	CmdLeitura | CmdEscrita | CmdAtribuição | CmdSe | CmdEnquanto | CmdEscolha
+
+CmdLeitura	->	**leia** AParenteses Variavel FParenteses.
+
+CmdEscrita	->	**escreva** AParenteses (Variavel | Expr | Texto) FParenteses.
+
+CmdSe	->	**se** AParenteses Expr OpRel Expr FParenteses **entao** Cmd+ (**senao** Cmd+ )? **fimse** .
+
+CmdAtribuição	->	Variavel := Expr .
+
+CmdEnquanto	->	**enquanto** AParenteses Expr OpRel Expr FParenteses **faca** (Cmd)+ **fimenquanto**.
+
+CmdEscolha	->	**escolha** AParenteses Variavel FParenteses **faca** (**caso faca** (Cmd)+ **fimcaso**.)+ (**semcaso faca** (Cmd)+ **fimcaso**.)? **fimescolha**.
+
+OpRel	->	!= | == | < | > | <= | >= 
+
+Expr	->	Expr OpArit Fator | Fator .
+
+Fator	->	NumInteiro | NumPontoF | Texto |  Variavel
+
+OpArit	->	+ | - | * | /
+
+Texto	->	" (0..9 | a..z | A..Z  | OpRel | OpArit | ' ' )+ "
+
+NumInteiro	->	(0..9)+
+
+NumPontoF	->	NumInteiro , NumInteiro
+
+Variavel	->	(a..z | A..Z) (a..z | A..Z | 0..9)*
+
+AParenteses	->	(
+
+Fparenteses	->	)
