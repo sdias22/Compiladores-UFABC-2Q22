@@ -66,7 +66,7 @@ Variavel	->	(a..z | A..Z) (a..z | A..Z | 0..9)*
 
 AParenteses	->	(
 
-Fparenteses	->	)
+FParenteses	->	)
 
 ## Analisador Léxico
 
