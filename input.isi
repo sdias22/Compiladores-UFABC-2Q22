@@ -1,0 +1,96 @@
+programa
+
+declare inteiro a, b.
+declare pontoF c, d, g.
+declare texto f, e, text1, text2.
+
+e := " ".
+
+enquanto (e != "Sair") faca
+    escreva("Escolha um Comando (Conta ou Compara ou Sair): ").
+    leia(e).
+    escolha (e) faca
+        caso "Conta" faca
+            escreva("Numero inteiro 1:").
+            leia(a).
+            escreva("Numero inteiro 2:").            
+            leia(b).
+            escreva("Operacao: ").
+            leia(f).
+            escolha(f) faca
+                caso "soma" faca
+                    escreva(a+b).
+                fimcaso.
+                caso "subtracao" faca
+                    escreva(a-b).
+                fimcaso.
+                caso "mult" faca
+                    g:= a*b.
+                    escreva(g).
+                fimcaso.
+                caso "div" faca
+                    se (b != 0) entao
+                        g:= a / b.
+                        escreva(g).
+                    senao
+                        escreva("Divisor igual a 0").
+                    fimse.
+                fimcaso.
+                semcaso faca
+                        escreva("Operacao invalida").
+                fimcaso.
+            fimescolha.
+        fimcaso.
+        caso "Compara" faca
+            escreva("Tipo (Texto ou Numero): ").
+            leia(f).
+            escolha (f) faca
+                caso "Texto" faca
+                    escreva("Texto 1: ").
+                    leia(text1).
+                    escreva("Texto 2: ").
+                    leia(text2).
+                    se (text1 == text2) entao
+                        escreva("Textos iguais").
+                    senao
+                        escreva("Textos diferentes").
+                    fimse.
+                fimcaso.
+                caso "Numero" faca
+                    escreva("Digite o numero 1: " ).
+                    leia(c).
+                    escreva("Digite o numero 2: " ).
+                    leia(d).
+                    se (c > d) entao
+                        escreva("Numero 1 maior que Numero 2").
+                    senao
+                        se(c < d) entao
+                            escreva("Numero 1 menor que Numero 2").
+                        senao
+                            escreva("Numero 1 igual ao Numero 2").
+                        fimse.
+                    fimse.
+                fimcaso.
+                semcaso faca
+                    escreva("Escolha invalida").
+                fimcaso.
+            fimescolha.
+        fimcaso.
+        caso "Sair" faca
+            escreva("Fim do processo").
+        fimcaso.
+        semcaso faca
+            escreva("Operacao invalida").
+        fimcaso.
+    fimescolha.
+fimenquanto.
+
+a:= 5.
+b:= 6.
+c:= 5*6/a.
+d:= c+b/10*5.
+
+escreva(a).
+escreva(c).
+
+fimprog.
