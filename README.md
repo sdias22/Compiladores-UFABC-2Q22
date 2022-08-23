@@ -46,7 +46,7 @@ CmdAtribuição	->	Variavel := Expr .
 
 CmdEnquanto	->	**enquanto** AParenteses Expr OpRel Expr FParenteses **faca** (Cmd)+ **fimenquanto**.
 
-CmdEscolha	->	**escolha** AParenteses Variavel FParenteses **faca** (**caso faca** (Cmd)+ **fimcaso**.)+ (**semcaso faca** (Cmd)+ **fimcaso**.)? **fimescolha**.
+CmdEscolha	->	**escolha** AParenteses Variavel FParenteses **faca** (**caso** Fator **faca** (Cmd)+ **fimcaso**.)+ (**semcaso faca** (Cmd)+ **fimcaso**.)? **fimescolha**.
 
 OpRel	->	!= | == | < | > | <= | >= 
 
