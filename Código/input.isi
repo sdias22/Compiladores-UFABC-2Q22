@@ -1,7 +1,7 @@
 programa
 
 declare inteiro a, b.
-declare pontoF c, d, g.
+declare pontoF c, d, g, l.
 declare texto f, e, text1, text2.
 
 e := " ".
