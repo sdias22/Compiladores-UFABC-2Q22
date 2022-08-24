@@ -26,7 +26,7 @@
 
 ## Link Vídeo Youtube:
 
-<a ref="https://youtu.be/TJFqEFBDpe0" target=_blank>Link</a>
+<a href="https://youtu.be/TJFqEFBDpe0" target="_blank" rel="noopener">Link</a>
 
 ## Gramática
 
