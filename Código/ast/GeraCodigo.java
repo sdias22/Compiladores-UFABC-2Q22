@@ -35,7 +35,7 @@ public class GeraCodigo {
 		str.append("}");
 
         try {
-			FileWriter fr = new FileWriter(new File("CodGerado/MainClass.java"));
+			FileWriter fr = new FileWriter(new File("MainClass.java"));
 			fr.write(str.toString());
 			fr.close();
 		}
