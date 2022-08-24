@@ -26,7 +26,7 @@
 
 ## Link Vídeo Youtube:
 
-https://youtu.be/TJFqEFBDpe0
+https://youtu.be/TJFqEFBDpe0/_blank
 
 ## Gramática
 
